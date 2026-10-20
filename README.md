@@ -18,8 +18,7 @@ Platform engineer and test automation engineer. Founder of **[AuctionMate](https
   before the fix and runs the test there. Red means the test works.
 - **[unreached](https://github.com/mekanhan/unreached)** (early): which of your tests does CI
   never run?
-- **[plate_recognition](https://github.com/mekanhan/plate_recognition)**: license plate
-  recognition with computer vision (Python, YOLO) on a live camera stream, for gate access
-  control on edge devices like the Jetson Nano and Raspberry Pi 5. Designed hybrid: it runs
-  fully on site for privacy and security, can sync to the cloud, and keeps working if either
-  side is down.
+- **[plate_recognition](https://github.com/mekanhan/plate_recognition)** (paused): license
+  plate recognition with computer vision (Python, YOLO). Runs fully on site, on one machine with
+  many IP cameras: live detection, 24/7 recording and a web dashboard. Local first, for privacy
+  and security.
